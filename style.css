@@ -1,0 +1,47 @@
+/* Định dạng chung cho toàn trang */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Định dạng khung xanh bao quanh nội dung */
+.container {
+    background-color: #d1e8ef; /* Màu xanh nhạt giống trong ảnh */
+    padding: 20px;
+    border: 1px solid #999;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+}
+
+/* Định dạng tiêu đề chính */
+h1 {
+    font-size: 1.5em;
+    margin-top: 0;
+    color: #000;
+}
+
+/* Định dạng tiêu đề phụ */
+h2 {
+    font-size: 1.3em;
+    margin-top: 20px;
+    color: #000;
+}
+
+/* Định dạng đoạn văn */
+p {
+    margin-bottom: 15px;
+    text-align: justify; /* Căn lề đều hai bên cho đẹp */
+}
+
+/* Định dạng liên kết */
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
